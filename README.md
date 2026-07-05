@@ -158,6 +158,59 @@ ls phases/03-deep-learning-core/05-loss-functions/outputs/
 ░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
 ```
 
+## AI Engineering Log
+
+This section tracks my personal journey, milestones, key takeaways, custom extensions, and course notes as I build my AI engineering foundations from scratch.
+
+### 🧭 Progress Tracker
+- [x] **Phase 00 — Setup & Tooling** (Completed)
+- [x] **Phase 01 — Math Foundations**
+  - [x] Lesson 01: [Linear Algebra Intuition](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/01-linear-algebra-intuition/)
+  - [x] Lesson 02: [Vectors & Matrices Operations](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/02-vectors-matrices-operations/)
+  - [/] Lesson 03: [Matrix Transformations](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/03-matrix-transformations/) *(In Progress)*
+  - [ ] Lesson 04: [Calculus for ML](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/04-calculus-for-ml/)
+  - [ ] Lesson 05: [Chain Rule & Autodiff](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/05-chain-rule-and-autodiff/)
+  - [ ] Lesson 06: [Probability & Distributions](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/06-probability-and-distributions/)
+  - [ ] Lesson 07: [Bayes' Theorem](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/07-bayes-theorem/)
+  - [ ] Lesson 08: [Optimization](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/08-optimization/)
+  - [ ] Lesson 09: [Information Theory](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/09-information-theory/)
+  - [ ] Lesson 10: [Dimensionality Reduction](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/10-dimensionality-reduction/)
+  - [ ] Lesson 11: [Singular Value Decomposition](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/11-singular-value-decomposition/)
+  - [ ] Lesson 12: [Tensor Operations](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/12-tensor-operations/)
+  - [ ] Lesson 13: [Numerical Stability](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/13-numerical-stability/)
+  - [ ] Lesson 14: [Norms and Distances](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/14-norms-and-distances/)
+  - [ ] Lesson 15: [Statistics for ML](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/15-statistics-for-ml/)
+  - [ ] Lesson 16: [Sampling Methods](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/16-sampling-methods/)
+  - [ ] Lesson 17: [Linear Systems](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/17-linear-systems/)
+  - [ ] Lesson 18: [Convex Optimization](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/18-convex-optimization/)
+  - [ ] Lesson 19: [Complex Numbers](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/19-complex-numbers/)
+  - [ ] Lesson 20: [Fourier Transform](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/20-fourier-transform/)
+  - [ ] Lesson 21: [Graph Theory](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/21-graph-theory/)
+  - [ ] Lesson 22: [Stochastic Processes](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/22-stochastic-processes/)
+- [ ] **Phase 02 — ML Fundamentals**
+- [ ] **Phase 03 — Deep Learning Core**
+
+### 🧠 Key Learnings
+- **Phase 00 — Setup & Tooling**: Configured the developer workspace, dependencies, and environment. Mastered CLI commands, git branch synchronization, and basic test run pipelines for running curriculum validations successfully.
+- **Phase 01 — Math Foundations**:
+  - *Lesson 01 (Linear Algebra Intuition)*: Deepened understanding of cosine similarity and dot product as geometric alignment measures. Mastered basis vector projections and the Gram-Schmidt process for building orthonormal bases.
+  - *Lesson 02 (Vectors & Matrices Operations)*: Built vectors, matrices (`Metrix`), determinants, inversions, and multiplication operations from scratch in Python. Mastered how matrices act as transformations and applied them to build a simple neural network layer with activation functions.
+
+### 🛠️ Extensions & Custom Code
+In addition to the standard lessons, I added and optimized:
+- **Angle Calculation**: Extended the custom [Vector](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/phases/01-math-foundations/01-linear-algebra-intuition/Build-it/vector.py) class with `angle_between` to find angles between vectors in degrees.
+- **Custom `Metrix` Additions**: Implemented standard matrix additions and shape-dimension properties directly in Python to deepen intuition.
+- **Vectorized NumPy Conversions**: Practiced translating Python list-comprehension based operations into highly optimized vectorized operations using NumPy to achieve orders of magnitude faster execution.
+
+### 📝 Web Annotation Notes (icycrow)
+I use the **icycrow** web annotation extension to take detailed notes directly on the course website. The serialized annotation files can be found in the [Json-notes](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/Json-notes) directory:
+- [Phase 01 Lesson 01 Notes](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/Json-notes/Phase01-01-linear_algebra_intuition___ai_engineering_from_scratch.json) — Annotations on linear algebra concepts.
+- [Phase 01 Lesson 02 Notes](file:///b:/PROGRAMMER_AREA/AI_ENGINEER/ai-Engineer-from-scratch/ai-engineering-from-scratch/Json-notes/Phase01-02-vectors__matrices___operations___ai_engineering_from_scratch.json) — Notes on vector & matrix operations.
+
+```
+░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
+```
+
 ## Every lesson ships something
 
 Other curricula end with *"congratulations, you learned X."* Each lesson here ends with a
